@@ -1,0 +1,95 @@
+body{
+    margin:0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0%;
+   
+}
+
+.flex-container{
+    display: flex;
+    border: 3px solid black;
+}
+
+/* caja lateral - contactos */
+
+nav{width: 10em;
+    min-height: 100vh;
+    background-color: aquamarine;
+
+}
+
+nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: grey;
+    color: rgba (255,255,255,0.6);
+}
+
+/* nav a:hover{
+    color: white;
+} */
+
+.foto-contactos{
+    border-radius: 500%;
+    width: 35px;
+    height: 35px;
+}
+
+.box1{
+    border: 2px solid black;
+    width: 25%;
+}
+
+/* caja central */
+
+.box-central{
+    display: flex;
+    text-align: center;
+    justify-content:center; 
+
+}
+
+.box-central img{
+    width: 200px;
+    margin-top: 20%;
+}
+
+
+.box-central h1{
+    text-align:center;
+    margin: 2%;
+    padding: 0%;
+    list-style-type:none;
+    display: inline-flex;
+   
+}
+
+.box-central p{
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+    flex-wrap: wrap;
+    font-size: small;
+}
+
+
+.content{
+    font-size: 2em;
+    font-stretch: expanded;
+    height: 8em;
+    width: 100%;
+    padding: 1em 8em;
+    text-align: center;
+    color: black;  
+}
