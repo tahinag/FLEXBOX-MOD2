@@ -2,20 +2,18 @@ body{
     margin:0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0%;
-   
 }
 
 .flex-container{
     display: flex;
-    border: 3px solid black;
+    border: 1px solid black;
 }
 
-/* caja lateral - contactos */
+/* caja lateral - usuario */
 
-nav{width: 10em;
+nav{
+    width: 10em;
     min-height: 100vh;
-    background-color: aquamarine;
-
 }
 
 nav ul{
@@ -31,32 +29,104 @@ nav li{
 
 nav a{
     text-decoration: none;
-    color: grey;
+    color:black;
     color: rgba (255,255,255,0.6);
 }
 
-/* nav a:hover{
-    color: white;
-} */
-
-.foto-contactos{
-    border-radius: 500%;
-    width: 35px;
-    height: 35px;
+.box1{
+    border: 1px solid black;
+    width: 25%;
+    display: flex;
+    min-height: 100vh;
 }
 
-.box1{
-    border: 2px solid black;
-    width: 25%;
+.box-usuario{
+    display: flex;
+    border: 1px solid gray;
+    padding-left: 5%;
+    align-content: center;
+    align-items: center;
+    width: 109%;
+}
+
+.foto-usuario{
+    border-radius: 300px;
+    width: 45px;
+    margin-top: 15%;
+}
+
+.nombre{
+    display: inline-flex;
+    padding-right: 100px;
+    margin-left: 3%;
+    align-items: center;
+}
+
+.nombre p{
+    display: inline;
+    font-size: small;
+    color: gray;
+}
+
+.iconos{
+    display:flex;
+    align-items:center;
+}
+
+.iconos i{ 
+    padding-inline:8px;
+    font-size:125% ;
+}  
+
+/* sección botón */
+
+.boton{ 
+    display: flex;
+    background-color: #A491D2;
+    margin-bottom: 34px;
+    margin-top: 34px;
+    margin-left: 44px;
+    margin-right: 20px;
+    align-content: space-around;
+    justify-content: center;
+    border-top: 1px;
+}
+
+.boton p{
+    color: white;
+    font-size: large;
+}
+
+/* sección contactos*/
+
+.box-contactos{  
+    display: flex;
+    border-top: 1px solid gray;
+    padding-left: 5%;
+    align-content: center;
+    align-items: center;
+    width: 109%;
+}
+
+.foto-contactos{
+    border-radius: 300px;
+    width: 56px;
+    height: 56px;
+    margin-top: 15%; 
+}
+
+.box-contactos a{
+    color:  #1B1F21;
+}
+.box-contactos p{ 
+    color: #444749 ;
 }
 
 /* caja central */
 
 .box-central{
     display: flex;
-    text-align: center;
-    justify-content:center; 
-
+    margin-top: 5%;
 }
 
 .box-central img{
@@ -64,14 +134,12 @@ nav a{
     margin-top: 20%;
 }
 
-
 .box-central h1{
     text-align:center;
     margin: 2%;
     padding: 0%;
     list-style-type:none;
     display: inline-flex;
-   
 }
 
 .box-central p{
@@ -82,7 +150,6 @@ nav a{
     flex-wrap: wrap;
     font-size: small;
 }
-
 
 .content{
     font-size: 2em;

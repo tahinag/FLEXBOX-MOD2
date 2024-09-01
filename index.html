@@ -5,53 +5,169 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FLEXBOX-CSS</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/3d1f976358.js" crossorigin="anonymous"></script>
-
 </head>
-<body>
+<body class="flex-container">
 
-    <!--sección de división de cajas-->
-    <div class="flex-container">
+ <!--sección de división de cajas-->
 
-
-        <nav class="box1"> <!--sección de contacto principal-->
+    <nav class="box1"> <!--sección de contactos-principal-->
             <ul>
-                <li>
-                    <img class="foto-contactos" src="./assets/img/maria.jpg" alt="">
-                </li>
+                <div> 
+                    <li class="box-usuario"><!--sección de usuario-->
+                        <div>
+                            <img class="foto-usuario" src="./assets/img/maria.jpg" alt="">
+                        </div>    
+                        
+                        <div class="nombre">
+                            <a href="#"><strong>Maria </strong>
+                            <br><p>Activo ahora</p></a>
+                        </div>
+                        
+                        <div class="iconos">
+                            <i class="fa-regular fa-message" ></i>
+                            <i class="fa-solid fa-bars" ></i>
+                        </div>
+  
+                    </li>   <!--fin sección usuario-->                
+                    
+                    <div class="boton"><!--sección de boton-->
+                        
+                        <li>
+                           <p><strong>Nuevo Chat</strong></p>
+                        </li>
 
-                <li>
-                    <a href="#"><strong>María</strong></a>
-                </li>
-            </ul>
-        </nav>
+                    </div> <!--fin sección de botón-->
+
+                                            
+                    <div><!-- sección de contactos  -->
+                         <li class="box-contactos">
+                            
+                            <div>
+                                <img class="foto-contactos" src="./assets/img/Screen Shot 2018-11-28 at 15.27.14.jpg" alt="">
+                            </div>    
+                            
+                            <div class="nombre">
+                                <a href="#"><strong>Juanita </strong>
+                                <br><p>At vero eos et accusa</p></a>
+                            </div>  
+
+                        </li>    
+                        
+                        <li class="box-contactos">
+                            
+                            <div>
+                                <img class="foto-contactos" src="./assets/img/Screen Shot 2018-11-28 at 15.32.16.jpg" alt="">
+                            </div>     
+                            
+                            <div class="nombre">
+                                <a href="#"><strong>Alberto </strong>
+                                <br><p> blanditiis praesentium</p></a>
+                            </div>
+
+                        </li>   
+
+                        <li class="box-contactos">
+                            
+                            <div>
+                                <img class="foto-contactos" src="./assets/img/Screen Shot 2018-11-28 at 15.30.34.jpg" alt="">
+                            </div>     
+                            
+                            <div class="nombre">
+                                <a href="#"><strong>Ignacio </strong>
+                                <br><p> officiis debitis aut </p></a>
+                            </div>  
+
+                        </li>   
+
+                        <li class="box-contactos">
+                            
+                            <div>
+                                <img class="foto-contactos" src="./assets/img/Screen Shot 2018-11-28 at 15.28.30.jpg" alt="">
+                            </div>     
+                            
+                            <div class="nombre">
+                                <a href="#"><strong>Cristian </strong>
+                                <br><p> Nam libero tempore</p></a>
+                            </div>  
+
+                        </li>   
+
+                        <li class="box-contactos">
+                            
+                            <div>
+                                <img class="foto-contactos" src="./assets/img/Screen Shot 2018-11-28 at 15.32.44.jpg" alt="">
+                            </div>    
+                            
+                            <div class="nombre">
+                                <a href="#"><strong>María José </strong>
+                                <br><p>impedit quo minus id </p></a>
+                            </div>  
+
+                        </li>   
+
+                        <li class="box-contactos">
+                            
+                            <div>
+                                <img class="foto-contactos" src="./assets/img/Screen Shot 2018-11-28 at 15.31.09.jpg" alt="">
+                            </div>    
+                            
+                            <div class="nombre">
+                                <a href="#"><strong>Gonzalo</strong>
+                                <br><p> At vero eos et accusa</p></a>
+                            </div>  
+
+                        </li>   
+
+                        <li class="box-contactos">
+                            
+                            <div>
+                                <img class="foto-contactos" src="./assets/img/Screen Shot 2018-11-28 at 15.30.54.jpg" alt="">
+                            </div>     
+                            
+                            <div class="nombre">
+                                <a href="#"><strong>Juan Pablo </strong>
+                                <br><p> necessitatibus saepe</p></a>
+                            </div>  
+
+                        </li>   
+
+                        <li class="box-contactos">
+                            
+                            <div>
+                                <img class="foto-contactos" src="./assets/img/Screen Shot 2018-11-28 at 15.28.04.jpg" alt="">
+                            </div>     
+                            
+                            <div class="nombre">
+                                <a href="#"><strong>Magdalena</strong>
+                                <br><p> ut et voluptates </p></a>
+                            </div>  
+
+                        </li>   
+
+
+
+                    </div><!--fin sección de contactos-->
+                </div>
+            </ul>     
+    </nav> <!--fin seccion princial contactos-->
 
 
             
-       <section class="box-central"> <!--sección central-->
-            <article class="content">
-                <img src="./assets/img/hand.png" alt="img-central">
+    <section class="box-central"> <!--sección central-->
+        <article class="content">
+            <img src="./assets/img/hand.png" alt="img-central">
             
-                <h1>Comienza el Nertworking</h1>
+            <h1>Comienza el Nertworking</h1>
             
-                 <p>Presiona el botón  <b>“Nuevo chat” </b> para comenzar a crear nuevas </p>
-                <p>redes de contacto para tu empresa o emprendimiento.</p>
+            <p>Presiona el botón  <b>“Nuevo chat” </b> para comenzar a crear nuevas </p>
+            <p>redes de contacto para tu empresa o emprendimiento.</p>
 
-            </article>
-        </section>
-
-
-    </div>
-
-
-    <!--sección de boton-->
-
-
-
-    <!--sección de contactos-->
-
-    
-
+        </article>
+    </section> <!--fin sección central-->
 
 
 </body>
