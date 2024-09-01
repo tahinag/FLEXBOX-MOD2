@@ -86,10 +86,8 @@ nav a{
     margin-bottom: 34px;
     margin-top: 34px;
     margin-left: 44px;
-    margin-right: 20px;
-    align-content: space-around;
+    margin-right: 20px; 
     justify-content: center;
-    border-top: 1px;
 }
 
 .boton p{
@@ -135,19 +133,12 @@ nav a{
 }
 
 .box-central h1{
-    text-align:center;
     margin: 2%;
-    padding: 0%;
-    list-style-type:none;
     display: inline-flex;
 }
 
 .box-central p{
-    text-align: center;
     margin: 0%;
-    padding: 0%;
-    list-style-type: none;
-    flex-wrap: wrap;
     font-size: small;
 }
 
